@@ -20,9 +20,9 @@ function convertToBool(text, fault = 'true') {
 
 global.thumb = fs.readFileSync('./lib/bugs/XByte.png') //Don't change
 //////////////////////////////////////////////////////////
-const BOTNAME = 'X - hacker'; //BOT name
+const BOTNAME = 'X - CASPER'; //BOT name
 //////////////////////////////////////////////////////////
-const FOOTERNAME = '*Powered by prince*'; //Footer text
+const FOOTERNAME = '*Powered by CASPER TECH*'; //Footer text
 
 
 
@@ -37,7 +37,7 @@ const FOOTERNAME = '*Powered by prince*'; //Footer text
 //----------------OWNER NUMBER------------------------------//
 //////////////////////////////////////////////////////////////////
 
-global.owner = process.env.OWNER_NUMBER  || '923168598809' ;  //put your number without +
+global.owner = process.env.OWNER_NUMBER  || '254732982940' ;  //put your number without +
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -59,8 +59,7 @@ module.exports = { //exporting modules to use in plugins
 //----------------Session ID------------------------------//
 //////////////////////////////////////////////////////////////////
 
-SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0xFeHZSamhBYitET2dRdVlsZStTa3g2R1ZwbEQzalVkZUthcFN1bzhrVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRWg5OXRHcEZpRnZNbk9lbysra2ZKSWlaR3Zzc0FhdzNlT0dwU05xOG1HRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnS216R2k4Ykp3TkRQekZJZVozQittbDJML0hjU0V4Nk9PeGNBb0lQcFVzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI5VUo0Ny9MWE1jbHBsQjFHR25BWE4yNDMyejl0enBXQno4SUc3REQzRFNRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlDOElLMm5RdndkNWx4cWlERUxNeHNOOXNJekRSOU9DbGpHVEx3OGdISHM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNrWVVCLzN2b3p6cW1UTnh6enh0bW1zRUFSTS9hYkpjbC9ZVlMwdVMxQk09In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEt3UE41THZlQ2FIaUp5Y3ZqeisyNmdrL2FZZnpaT2s0V3ZMNmZnYmpVVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWFRIZUVONGh1VXIwTVB2VnVHT1Raa3p4RzFvUXdTc3NROVdRSTlPOHYzOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9rUE5vWjJpWDZSbERBYVNHK3NhUk5UVEhrcmoxcTY3c3llUEx1RUc2MCtBOTFHYU1kamI0NTk1NElKdk1jUnhSWU9YVkNmVkdPZmlEK3JJZWdDUGhnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjI3LCJhZHZTZWNyZXRLZXkiOiJLbUdiSVZsWER2YlYyNWxXQzhodFBnb1VaN1YrLzVYWEIrMkxDSDNWb1drPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJPb2VLdk1Wc1NmNkFTRkxlb2VjM01nIiwicGhvbmVJZCI6ImRjNGUxNWMzLWNiMWUtNDk1Yi05YmYwLTc5NTFmZDNjMmY3OSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHMzc1S3Y2MEp3eGV4WUtJVmVQS0JvSFkwQWc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ21WWEZBYnVuOTg2MHZJWWJGUUZPanFTcCtzPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlZYSDRMTUYxIiwibWUiOnsiaWQiOiI5MjMxNjg1OTg4MDk6MjRAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0ovUzUrZ0VFTnlyaDdVR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkdLTHQzUEQ0TnpJdEE2ZlcwL0RYKzc0TmFXTjMxSlVmTlQ5NGM2R00zRzA9IiwiYWNjb3VudFNpZ25hdHVyZSI6InJsS0VQY2h4MWN3L01icVpJT25INWxlelR2NnNBVUFFbWtleWt0djNnVVNWTFB0aGFqaCtPWlczVnloOSt3bnZVOWQzRVpOV3krbnJPSGYrUGtCa0RBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJlajFCS1hlTTExOGo2VFdFc1A0TlBhcGlmckUvelA3em43ZVVMZ0pkcW1La3pLYkgxajF2dkdRT0xXbjl6MkYyNzVLTWtyTGpjclZGODRiME9SRmNoZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjkyMzE2ODU5ODgwOToyNEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJSaWk3ZHp3K0RjeUxRT24xdFB3MS91K0RXbGpkOVNWSHpVL2VIT2hqTnh0In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIxODgyMDg4LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUJWZCJ9', //Paste your session ID here
-
+SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ0NvRERRSHFhbUpITVhGTmxMaThObVdwNWpKd1dwamY4SHRRTGFxbXlrOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiN0s1UEFmZHErazNSWmdNaHdhSUNiK0RtZzM2TTFzUmwrU3pnNUN3VHpXYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrSnVleVVzSlpkYlN3NVhxTjhhYWc0YlBnZThBZzJGL2JIcElhSzlxTW5BPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJSV0xYbGUwRlRhYlFNVzlYYXNyVnRDd0VNdk5XL1BUQnNPY2RJbXVmQ1RjPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IllNam0wWFZYZWEybk9vVTBFU2ljN09PWkU3Nm9tTVhRM2ZqbkI3Wk9vR3c9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkpyY1Urc1ZVK01DQTRMK0RkV2RnNWJsaWVYTEF2bUlNdTJwbFhRazJaVTQ9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0JudCtOd1JYTFNiSDViZVM3V0NPUExIaXBSS2F6L2pJajd4NHY0T1QwVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiL0IrWm9naFFvYmtRSnViVWh2bHY2YXhFd2lsZGxsTlRoN1dIOWI4cm9UWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkhqR1VCOU1yU0NZQXZhcWhBUFBsN0puK1FQZ1lFbmNRREY5TGViNkRIRW93N0lrY0FubTF0QWVGTnJ0SUJiL2FZUmdKZDBjNUxXejIzVklndkpZa0N3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTcyLCJhZHZTZWNyZXRLZXkiOiJiNi9OeTJqSm9EMHpKZVZMWFJEamdwcTFPOS9kSDd5cmhmZEdHL0lDVlg4PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJmRXlZc1FaNVFYaUJwNG5pRUtvRlJnIiwicGhvbmVJZCI6IjA1MzQ0N2Y5LTdkNTgtNDliZS05ZjgyLWQ4ZTgzMjIzZjBlYyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlTzVIdjBRSGVQS3dQOGJ1OVdBMXZJMTNXWWM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMVFnTXVtaWRram13enpFa3pKL2xaM1o3TGdjPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlFFR1o2N0hQIiwibWUiOnsiaWQiOiIyNTQ3MzI5ODI5NDA6MzNAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiVFJBQlkg4oSC8J2UuPCdlYrihJnwnZS84oSdIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNONjl2S0FGRU9XT2tiWUdHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJZdk9ENlpOVG5RZGswYmJjeTJmeW55anF2YzFaK09DWklPQ08rMVdkcTN3PSIsImFjY291bnRTaWduYXR1cmUiOiJCSHpNTXgxN01vdXUvVTcwYk9GOUtzWXo4UHR0MlZROHVPUzArRVd0L1JEWUN6bVFGUmxmb3pFeCszK0NZK0p5ZmYvYm40WWM0a3NFZGFlRWR6bWJBQT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiZDI2SjZOYzJBemlseTlMcjZTTW4xeEYvTllMdWI5eGdxV1FjanZxWHZnb2dTQ3pEbGxmQ2VkeStIbEw2ZFVlOTJVZ0Y1WHAwRXNUc0tteTVCV3Z1REE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTQ3MzI5ODI5NDA6MzNAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCV0x6ZyttVFU1MEhaTkcyM010bjhwOG82cjNOV2ZqZ21TRGdqdnRWbmF0OCJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyNDEzOTM3OX0=' ,//
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
 
@@ -98,25 +97,25 @@ travaSend: process.env.TRAVA_SEND || '25' ,   //BUGS
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' , //button or nonbutton
 //////////////////////////////////////////////////////////
 
-MODERATORS : process.env.MODERATORS === undefined ? "923072380380" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "254732982940" : process.env.MODERATORS ,    
 //////////////////////////////////////////////////////////
 
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE, //Maximum size that bot can download a file   
 //////////////////////////////////////////////////////////
 
-OWNER_NAME: process.env.OWNER_NAME || 'prince' , //Your name
+OWNER_NAME: process.env.OWNER_NAME || 'TRABY' , //Your name
 //////////////////////////////////////////////////////////
 
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9' : process.env.POSTGRESQL_URL,
 //////////////////////////////////////////////////////////
 
-FOOTER: process.env.FOOTER || '*Powered by prince*',    
+FOOTER: process.env.FOOTER || '*Powered by casper tech*',    
 //////////////////////////////////////////////////////////
 
 ANTI_BAD: process.env.ANTI_BAD || false  ,  //true or false
 //////////////////////////////////////////////////////////
 
-AUTO_REACT:  process.env.AUTO_REACT  || false  ,     //true or false
+AUTO_REACT:  process.env.AUTO_REACT  || true  ,     //true or false
 //////////////////////////////////////////////////////////
 
 AUTO_TYPING:  process.env.AUTO_TYPING  || false  , //true or false
@@ -164,7 +163,7 @@ ANTI_CALL: process.env.ANTI_CALL || false  , //true or false
 ALIVE: process.env.ALIVE || `default`,     
 //////////////////////////////////////////////////////////
 
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,     //true or false
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,     //true or false
 //////////////////////////////////////////////////////////
 
 AUTO_STICKER: process.env.AUTO_STICKER || false  , //true or false
@@ -173,7 +172,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || false  , //true or false
 WELCOME:  process.env.WELCOME  || false ,   //true or false
 //////////////////////////////////////////////////////////
 
-ANTI_DELETE : process.env.ANTI_DELETE || false , //true or false
+ANTI_DELETE : process.env.ANTI_DELETE || true , //true or false
 //////////////////////////////////////////////////////////
 
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
